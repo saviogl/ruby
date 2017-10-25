@@ -3,7 +3,7 @@ FROM saviogl/ruby:2.1.2-1.14.6
 # Define Node version
 ARG NODE_VERSION=v6.11.1
 ARG NPM_VERSION=5.3.0
-ARG YARN_VERSION=0.27.5
+ARG YARN_VERSION=1.1.0
 
 # Fetch nodejs
 RUN wget -O /tmp/node-$NODE_VERSION.tar.gz http://nodejs.org/dist/$NODE_VERSION/node-$NODE_VERSION.tar.gz
